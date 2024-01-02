@@ -12,10 +12,10 @@ type Node[T any] struct {
 
 // An interface representing the Stack type
 type IStack[T any] interface {
-	push(newItem T)
-	pop() T
-	display()
-	to_string() string
+	Push(newItem T)
+	Pop() T
+	Display()
+	String() string
 }
 
 // A Stack type that can hold "any" one type of value
